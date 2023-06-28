@@ -40,6 +40,7 @@ function TodoHead() {
 
   return (
     <TodoHeadBlock>
+      <h2>Ryong, </h2>
       <h1>{dateString}</h1>
       <div className="day">{dayName}</div>
       <div className="tasks-left">할 일 {undoneTasks.length}개 남음</div>
